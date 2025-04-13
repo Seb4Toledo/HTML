@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #1f1f1f;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .presentacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 80px;
+    background: #343434;
+  }
+  
+  .inicio h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .inicio p {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
+  .inicio .btn {
+    background: none;
+    border: 2px solid #f6a623;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .cara img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .centro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    padding: 60px 80px;
+    background-color: #2a2a2a;
+  }
+  
+  .parrafo{
+    padding-bottom: 20px;
+  }
+  .centro-img img {
+    width: 300px;
+    height: 350px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+  
+  .centro-texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .centro-texto .btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: #f6a623;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .final {
+    padding: 60px 80px;
+    background-color: #1f1f1f;
+    text-align: center;
+  }
+  
+  .final h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .cajas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .tarjeta {
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .foto{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .tarjeta h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+ 
+  .banner .baner{
+    height: 20vh;
+    width: 100vw;
+  }
+
+  .estudios { background: #135961; }
+  .trabajos { background: #702c09; }
+  .proyectos { background: #7b6e22; }
+  .cursos { background: #0e5626; }
